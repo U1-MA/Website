@@ -1,0 +1,24 @@
+.preview {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20vh;
+
+	min-height: 100vh;
+}
+
+.preview__wrapper {
+	max-width: 500px;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	width: 100%;
+	height: auto;
+	aspect-ratio: 1000 / 1929;
+}
+
+.preview__image {
+	width: 100%;
+	height: 100%;
+}

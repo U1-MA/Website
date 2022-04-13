@@ -1,0 +1,39 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+    <meta name="author" content="{{ metadata.author }}" />
+    <meta name="copyright" content="{{ metadata.copyright }}" />
+
+    <meta property="og:title" content="{{ metadata.title }}" />
+    <meta property="og:site_name" content="{{ metadata.siteName }}" />
+    <meta property="og:description" content="{{ metadata.description }}" />
+    <meta property="og:locale" content="{{ lang }}" />
+	<meta property="og:image" content="https://u1-ma.dmkskn.com/preview.jpg" />
+
+    <meta name="twitter:title" content="{{ metadata.title }}" />
+	<meta name="twitter:description" content="{{ metadata.description }}" />
+	<meta property="twitter:image" content="https://u1-ma.dmkskn.com/preview.jpg" />
+	<meta name="twitter:card" content="summary" />
+
+	{% for icon in icons %}
+	<link
+		rel="{{ icon.rel }}"
+		href="{{ icon.href }}"
+		type="{{ icon.type }}"
+		{% if icon.sizes != undefined %}sizes="{{ icon.sizes }}"{% endif %}
+	/>
+	{% endfor %}
+
+	<link rel="preload" href="/style.css" as="style">
+	<link rel="preload" href="/scripts/lang.js" as="script">
+	<link rel="preload" href="/scripts/scroll-animation.js" as="script">
+	<link rel="preload" href="/scripts/u1-ma.js" as="script">
+	<link rel="preload" as="image" href="/images/iphone.webp" type="image/webp" />
+
+	<link rel="stylesheet" href="/style.css" />
+
+    <title>{{ metadata.siteName }}</title>
+    <meta name="description" content="{{ metadata.description }}" />
+</head>

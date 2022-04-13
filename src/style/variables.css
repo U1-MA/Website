@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+:root {
+	--default-font-family: ui-sans-serif, ui-sans-serif, -apple-system, system-ui, BlinkMacSystemFont, Roboto,
+		'Helvetica Neue', Arial, sans-serif;
+	--footer-height: 20vh;
+
+	--primary-text: black;
+	--secondary-text: rgb(83, 83, 83);
+
+	--safe-area-left: max(25px, env(safe-area-inset-left, 25px));
+	--safe-area-right: max(25px, env(safe-area-inset-right, 25px));
+}
+
+@media only screen and (prefers-color-scheme: dark) {
+	:root {
+		--background-color: black;
+		--primary-text: white;
+		--secondary-text: rgb(150, 150, 150);
+	}
+}
+
+@media only screen and (prefers-contrast: more) and (prefers-color-scheme: dark) {
+	:root {
+		--background-color: black;
+		--primary-text: white;
+		--secondary-text: white;
+	}
+}
+
+@media only screen and (prefers-contrast: more) and (prefers-color-scheme: light) {
+	:root {
+		--background-color: white;
+		--primary-text: black;
+		--secondary-text: black;
+	}
+}

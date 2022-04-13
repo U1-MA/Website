@@ -1,0 +1,55 @@
+{
+	"pageType": "privacy",
+	"lang": "en",
+	"metadata": {
+		"title": "Privacy Policy",
+		"siteName": "U1-MA",
+		"description": "The U1-MA is build with your privacy in mind...",
+		"author": "Dmitry Koskin",
+		"copyright": "© Designed and Developed by Dmitry Koskin, 2022."
+	},
+	"copyright": "© The <a href=\"index.html\">U1-MA</a> is Designed and Developed by <a href=\"https://dmkskn.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Dima&nbsp;Koskin</a> in&nbsp;2021.",
+
+	"title": "Privacy Policy",
+	"subtitle": "The <a href=\"index.html\">U1-MA</a> (\"App\") is build with your privacy in mind by <a href=\"https://dmkskn.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Dima Koskin</a> (\"Developer\").",
+
+	"appStore": {
+		"title": "App Store",
+		"badge": { "label": "Download on the App Store" }
+	},
+
+	"userInfo": {
+		"title": "User Information",
+		"items": [
+			"The app does not collect your data.",
+			"With your permission, the app can write your mindful minutes data to the Apple Health.",
+			"There is no login required to use the app.",
+			"The app does not ask you about your email address, phone number, name, age or gender.",
+			"There are no analytics tools used anywhere on the website or in the app."
+		]
+	},
+
+	"contacts": {
+		"title": "Contacts",
+		"content": "If you have any questions, please contact the developer by e-mail address <a href=\"mailto:u1-ma@dmkskn.com\">u1-ma@dmkskn.com</a>"
+	},
+
+	"icons": [
+		{
+			"rel": "shortcut icon",
+			"href": "/icon.png",
+			"type": "image/png"
+		},
+		{
+			"rel": "icon",
+			"href": "/icon-180x180.png",
+			"type": "image/png"
+		},
+		{
+			"rel": "apple-touch-icon",
+			"sizes": "180x180",
+			"href": "/apple-touch-icon-180x180.png",
+			"type": "image/png"
+		}
+	]
+}

@@ -1,0 +1,41 @@
+.user-info {
+	display: contents;
+}
+
+.user-info__title {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	white-space: nowrap;
+	-webkit-clip-path: inset(100%);
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+.user-info__list {
+	display: contents;
+}
+
+.user-info__item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+	min-height: 50vh;
+}
+
+.user-info__item-text {
+	font-size: max(20px, min(3.5vw, 50px));
+	font-size: clamp(20px, 3.5vw, 50px);
+	font-weight: 500;
+
+	-webkit-user-select: none;
+	user-select: none;
+	cursor: default;
+
+	word-break: keep-all;
+}

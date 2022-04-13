@@ -1,0 +1,42 @@
+.footer {
+	max-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+
+	height: var(--footer-height);
+}
+
+.footer__separator {
+	display: none;
+}
+
+.footer__content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.footer__text {
+	font-size: 12px;
+	margin: 2em;
+
+	color: var(--secondary-text);
+	line-height: 1.5;
+}
+
+.footer__text a {
+	color: inherit;
+	transition: filter 0.25s ease-in-out;
+}
+
+.footer__text a:hover {
+	filter: brightness(125%);
+}
+
+@media screen and (prefers-color-scheme: light) {
+	.footer__text a:hover {
+		filter: brightness(75%);
+	}
+}

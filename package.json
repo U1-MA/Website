@@ -1,0 +1,26 @@
+{
+	"private": true,
+	"author": "Dmitry Koskin",
+	"engines": {
+		"node": ">=17",
+		"npm": ">=8"
+	},
+	"scripts": {
+		"clean": "rm -rf dist",
+		"build": "npx gulp build",
+		"serve": "npx gulp serve",
+		"watch": "npm run build && npm run serve",
+		"format": "npx prettier --write ."
+	},
+	"devDependencies": {
+		"autoprefixer": "^10.4.4",
+		"browser-sync": "^2.27.9",
+		"gulp": "^4.0.2",
+		"gulp-nunjucks": "^5.1.0",
+		"gulp-postcss": "^9.0.1",
+		"postcss-aspect-ratio-polyfill": "^2.0.0",
+		"postcss-csso": "^6.0.0",
+		"postcss-import": "^14.1.0",
+		"prettier": "^2.6.2"
+	}
+}

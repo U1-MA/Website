@@ -1,0 +1,11 @@
+<main class="main">
+	{% if pageType == 'home' %}
+	{% include "blocks/preview/preview.njk" %}
+	{% include "blocks/features/features.njk" %}
+	{% include "blocks/app-store/app-store.njk" %}
+	{% elif pageType == 'privacy' %}
+	{% include "blocks/user-info/user-info.njk" %}
+	{% include "blocks/contacts/contacts.njk" %}
+	{% include "blocks/app-store/app-store.njk" %}
+	{% endif %}
+</main>

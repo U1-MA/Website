@@ -1,0 +1,13 @@
+<section class="user-info">
+	<h2 class="user-info__title">{{ userInfo.title }}</h2>
+
+	<ul class="user-info__list">
+		{% for feature in userInfo.items %}
+			<li class="user-info__item">
+				<span class="user-info__item-text scroll-animation">
+					{{ feature }}
+				</span>
+			</li>
+		{% endfor %}
+	</ul>
+</section>

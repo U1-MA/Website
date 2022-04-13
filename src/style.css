@@ -1,0 +1,12 @@
+@import url(style/normalize.css);
+@import url(style/variables.css);
+@import url(blocks/_page/page.css);
+@import url(blocks/_body/body.css);
+@import url(blocks/header/header.css);
+@import url(blocks/main/main.css);
+@import url(blocks/footer/footer.css);
+@import url(blocks/preview/preview.css);
+@import url(blocks/features/features.css);
+@import url(blocks/app-store/app-store.css);
+@import url(blocks/user-info/user-info.css);
+@import url(blocks/contacts/contacts.css);

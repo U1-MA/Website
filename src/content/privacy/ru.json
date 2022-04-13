@@ -1,0 +1,54 @@
+{
+	"pageType": "privacy",
+	"lang": "ru",
+	"metadata": {
+		"title": "Политика конфиденциальности",
+		"siteName": "U1-MA",
+		"description": "U1-MA не собирает ваши данные...",
+		"author": "Дмитрий Коскин",
+		"copyright": "© Дмитрий Коскин, 2022."
+	},
+	"copyright": "© <a href=\"https://dmkskn.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Дима&nbsp;Коскин</a>, 2022.<br />Назад к <a href=\"/ru/index.html\">U1-MA</a>.",
+
+	"title": "Политика конфиденциальности",
+
+	"appStore": {
+		"title": "App Store",
+		"badge": { "label": "Загрузить из App Store" }
+	},
+
+	"userInfo": {
+		"title": "Личная информация",
+		"items": [
+			"Приложение «<a href=\"/ru/index.html\">U1-MA</a>» не собирает ваши данные.",
+			"С вашего разрешения, приложение «U1-MA» может отправлять данные в приложение «Здоровье».",
+			"Приложение «U1-MA» не требует регистрации.",
+			"Приложение «U1-MA» не запрашивает ваш адрес электронной почты, телефон или другую информацию о вас.",
+			"Приложение «U1-MA» и данный сайт не используют никакие инструменты аналитики."
+		]
+	},
+
+	"contacts": {
+		"title": "Контакты",
+		"content": "Вы можете связаться с разработчиком по электронной почте <a href=\"mailto:u1-ma@dmkskn.com\">u1-ma@dmkskn.com</a>"
+	},
+
+	"icons": [
+		{
+			"rel": "shortcut icon",
+			"href": "/icon.png",
+			"type": "image/png"
+		},
+		{
+			"rel": "icon",
+			"href": "/icon-180x180.png",
+			"type": "image/png"
+		},
+		{
+			"rel": "apple-touch-icon",
+			"sizes": "180x180",
+			"href": "/apple-touch-icon-180x180.png",
+			"type": "image/png"
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+	"pageType": "home",
+	"lang": "ru",
+	"title": "Осознанность",
+
+	"metadata": {
+		"title": "Осознанность.",
+		"siteName": "U1-MA",
+		"description": "Приложение для медитаций для iOS.",
+		"author": "Дмитрий Коскин",
+		"copyright": "© Дмитрий Коскин, 2022."
+	},
+	"copyright": "© <a href=\"https://dmkskn.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Дима Коскин</a>, 2022.<br /><a href=\"/ru/privacy.html\">Политика конфиденциальности</a>.",
+
+	"features": {
+		"title": "Описание",
+		"items": [
+			{ "content": "Без духовной музыки" },
+			{ "content": "Без стоковых фотографий" },
+			{ "content": "Без таймера" },
+			{ "content": "Тактильность" },
+			{ "content": "Здоровье" },
+			{ "content": "По-настоящему приватно" },
+			{ "content": "Без подписки", "modifiers": ["rounded"] }
+		]
+	},
+
+	"appStore": {
+		"title": "App Store",
+		"badge": { "label": "Загрузить из App Store" }
+	},
+
+	"icons": [
+		{
+			"rel": "shortcut icon",
+			"href": "/icon.png",
+			"type": "image/png"
+		},
+		{
+			"rel": "icon",
+			"href": "/icon-180x180.png",
+			"type": "image/png"
+		},
+		{
+			"rel": "apple-touch-icon",
+			"sizes": "180x180",
+			"href": "/apple-touch-icon-180x180.png",
+			"type": "image/png"
+		}
+	]
+}

@@ -1,0 +1,11 @@
+.page {
+	-webkit-font-smoothing: antialiased;
+
+	height: 100%;
+	width: 100%;
+
+	font-family: var(--default-font-family);
+
+	background-color: var(--background-color);
+	color: var(--primary-text);
+}
