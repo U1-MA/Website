@@ -3,10 +3,27 @@
 	"lang": "ru",
 	"metadata": {
 		"title": "Политика конфиденциальности",
-		"siteName": "U1-MA",
+		"appName": "U1-MA",
 		"description": "U1-MA не собирает ваши данные...",
 		"author": "Дмитрий Коскин",
-		"copyright": "© Дмитрий Коскин, 2022."
+		"copyright": "© Дмитрий Коскин, 2022.",
+		"previewImage": "https://u1-ma.dmkskn.com/preview.jpg",
+		"appCategory": "Здоровье и фитнес",
+
+		"keywords": [
+			"приватность",
+			"U1-MA",
+			"Dmitry Koskin", 
+			"приложение для медитаций для ios",
+			"Здоровье и фитнес", 
+			"приложения для ios", 
+			"приложение", 
+			"медитация",
+			"mindfulness",
+			"appstore", 
+			"app&nbsp;store", 
+			"iphone"
+		]
 	},
 	"copyright": "© <a href=\"https://dmkskn.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Дима&nbsp;Коскин</a>, 2022.<br />Назад к <a href=\"/ru/index.html\">U1-MA</a>.",
 

@@ -4,10 +4,28 @@
 	"title": "Mindfulness",
 	"metadata": {
 		"title": "Mindfulness.",
-		"siteName": "U1-MA",
+		"appName": "U1-MA",
 		"description": "An app for daily meditations.",
 		"author": "Dmitry Koskin",
-		"copyright": "© Designed and Developed by Dmitry Koskin, 2022."
+		"copyright": "© Designed and Developed by Dmitry Koskin, 2022.",
+		"previewImage": "https://u1-ma.dmkskn.com/preview.jpg",
+		"appCategory": "Health & Fitness",
+		"keywords": [
+			"U1-MA",
+			"Dmitry Koskin", 
+			"mindfulnes app for ios",
+			"Health and fitness", 
+			"app for ios", 
+			"application",
+			"app", 
+			"meditation",
+			"mindfulness",
+			"apple&nbsp;health",
+			"appstore", 
+			"app&nbsp;store", 
+			"iphone",
+			"design"
+		]
 	},
 	"copyright": "© Designed and Developed with Your <a href=\"/privacy.html\">Privacy</a> in Mind by <a href=\"https://dmkskn.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Dima Koskin</a> in 2022.",
 

@@ -5,10 +5,27 @@
 
 	"metadata": {
 		"title": "Осознанность.",
-		"siteName": "U1-MA",
+		"appName": "U1-MA",
 		"description": "Приложение для медитаций для iOS.",
 		"author": "Дмитрий Коскин",
-		"copyright": "© Дмитрий Коскин, 2022."
+		"copyright": "© Дмитрий Коскин, 2022.",
+		"previewImage": "https://u1-ma.dmkskn.com/preview.jpg",
+		"appCategory": "Здоровье и фитнес",
+		"keywords": [
+			"U1-MA",
+			"Dmitry Koskin", 
+			"приложение для медитаций для ios",
+			"Здоровье и фитнес", 
+			"приложения для ios", 
+			"приложение", 
+			"медитация",
+			"mindfulness",
+			"apple&nbsp;health",
+			"appstore", 
+			"app&nbsp;store", 
+			"iphone",
+			"дизайн"
+		]
 	},
 	"copyright": "© <a href=\"https://dmkskn.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Дима Коскин</a>, 2022.<br /><a href=\"/ru/privacy.html\">Политика конфиденциальности</a>.",
 

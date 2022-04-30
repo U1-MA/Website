@@ -5,17 +5,55 @@
 
     <meta name="author" content="{{ metadata.author }}" />
     <meta name="copyright" content="{{ metadata.copyright }}" />
+	<meta name="description" content="{{ metadata.description }}" />
 
-    <meta property="og:title" content="{{ metadata.title }}" />
-    <meta property="og:site_name" content="{{ metadata.siteName }}" />
+	{% if pageType == "home" %}
+		<meta name="keywords" content="{% for keyword in metadata.keywords %}{{ keyword }}{% if not loop.last %}, {% endif %}{% endfor %}">
+    {% endif %}
+
+	<meta property="og:title" content="{{ metadata.title }}" />
+    <meta property="og:site_name" content="{{ metadata.appName }}" />
     <meta property="og:description" content="{{ metadata.description }}" />
     <meta property="og:locale" content="{{ lang }}" />
-	<meta property="og:image" content="https://u1-ma.dmkskn.com/preview.jpg" />
+	<meta property="og:image" content="{{ metadata.previewImage }}" />
 
     <meta name="twitter:title" content="{{ metadata.title }}" />
 	<meta name="twitter:description" content="{{ metadata.description }}" />
-	<meta property="twitter:image" content="https://u1-ma.dmkskn.com/preview.jpg" />
+	<meta property="twitter:image" content="{{ metadata.previewImage }}" />
 	<meta name="twitter:card" content="summary" />
+
+	{% if pageType == "home" %}
+		<script type="application/ld+json">
+			[
+				{
+					"@context": "http://schema.org",
+					"@type": "MobileApplication",
+					"name": "{{ metadata.appName }}",
+					"description": "{{ metadata.description }}",
+					"image": "{{ metadata.previewImage }}",
+					"screenshot": [
+						"https://u1-ma.dmkskn.com/images/iphone-screen.png"
+					],
+					"operatingSystem": "iOS",
+					"offers": { "@type": "Offer", "price": "0.99", "priceCurrency": "USD" },
+					"applicationCategory": "{{ metadata.appCategory }}",
+					"keywords": [
+						{% for keyword in metadata.keywords %}
+							"{{ keyword }}"{% if not loop.last %}, {% endif %}
+						{% endfor %}
+					],
+					"author": [
+						{
+							"@type": "Person",
+							"name": "{{ metadata.author }}",
+							"image": "https://dmkskn.com/preview.jpg",
+							"url": "https://dmkskn.com"
+						}
+					]
+				}
+			]
+		</script>
+	{% endif %}
 
 	{% for icon in icons %}
 	<link
@@ -34,6 +72,5 @@
 
 	<link rel="stylesheet" href="/style.css" />
 
-    <title>{{ metadata.siteName }}</title>
-    <meta name="description" content="{{ metadata.description }}" />
+    <title>{{ metadata.appName }}</title>
 </head>

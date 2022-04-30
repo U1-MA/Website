@@ -3,10 +3,29 @@
 	"lang": "en",
 	"metadata": {
 		"title": "Privacy Policy",
-		"siteName": "U1-MA",
+		"appName": "U1-MA",
 		"description": "The U1-MA is build with your privacy in mind...",
 		"author": "Dmitry Koskin",
-		"copyright": "© Designed and Developed by Dmitry Koskin, 2022."
+		"copyright": "© Designed and Developed by Dmitry Koskin, 2022.",
+		"previewImage": "https://u1-ma.dmkskn.com/preview.jpg",
+		"appCategory": "Health & Fitness",
+
+		"keywords": [
+			"privacy policy",
+			"privacy",
+			"U1-MA",
+			"Dmitry Koskin", 
+			"mindfulnes app for ios",
+			"Health and fitness", 
+			"app for ios", 
+			"application",
+			"app", 
+			"meditation",
+			"mindfulness",
+			"appstore", 
+			"app&nbsp;store", 
+			"iphone"
+		]
 	},
 	"copyright": "© The <a href=\"index.html\">U1-MA</a> is Designed and Developed by <a href=\"https://dmkskn.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Dima&nbsp;Koskin</a> in&nbsp;2021.",
 
