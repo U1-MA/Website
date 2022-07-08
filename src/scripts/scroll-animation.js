@@ -10,7 +10,7 @@ document.addEventListener(
 				initial: '0.5',
 				intersecting: '1',
 			},
-			transition: 'all 0.35s ease-in-out',
+			transition: 'transform 0.35s ease-in-out, opacity 0.35s ease-in-out',
 		}
 
 		let observer = new IntersectionObserver((entries) => {
