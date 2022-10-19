@@ -1,5 +1,6 @@
 .contacts {
-	display: contents;
+	padding-left: max(2em, var(--safe-area-left));
+	padding-right: max(2em, var(--safe-area-right));
 }
 
 .contacts__title {
@@ -22,6 +23,8 @@
 	text-align: center;
 
 	min-height: 100vh;
+	max-width: 680px;
+	margin: 0 auto;
 }
 
 .contacts__text {

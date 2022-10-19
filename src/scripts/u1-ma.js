@@ -184,7 +184,7 @@
 				<div class="preview__wrapper">
 					<picture>
 						<source srcset="/images/iphone.webp" type="image/webp" />
-						<img class="preview__phone" src="/images/iphone.png" width="100%" />
+						<img draggable="false" class="preview__phone" src="/images/iphone.png" width="100%" />
 					</picture>
 					<div class="preview__screen">
 						<div class="preview__rectangle1"></div>

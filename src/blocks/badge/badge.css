@@ -1,2 +1,9 @@
-.badge {
+.badge svg {
+	width: 130px;
+}
+
+@media (min-width: 768px) {
+	.badge svg {
+		width: unset;
+	}
 }

@@ -11,7 +11,7 @@ document.addEventListener(
 				intersecting: '1',
 			},
 			transition: 'transform 0.35s ease-in-out, opacity 0.35s ease-in-out',
-			willChange:  'transform, opacity'
+			willChange: 'transform, opacity',
 		}
 
 		let observer = new IntersectionObserver((entries) => {

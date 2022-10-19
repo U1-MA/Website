@@ -1,18 +1,21 @@
 <footer class="footer">
     <hr class="footer__separator" />
     <div class="footer__content">
-		<span class="footer__text scroll-animation">
-			{{ copyright | safe }}
-		</span>
-
-		{% if lang == "ru" %}
-		<span class="footer__text scroll-animation">
-			<a href="{% if pageType == "privacy" %}/privacy.html{% else %}/index.html{% endif %}">English</a>
-		</span>
-		{% elif lang == "en" %}
-		<span class="footer__text scroll-animation" id="link-to-russian-translation" hidden>
-			<a href="{% if pageType == "privacy" %}/ru/privacy.html{% else %}/ru/index.html{% endif %}">Русский</a>
-		</span>
+		{% if pageType == 'home' %}
+		{% include "blocks/badge/badge.njk" %}
 		{% endif %}
+
+		<p class="footer__text">
+			{% if pageType == 'privacy' %}
+			<a class="back-link" href="{% if lang == 'ru' %}/ru{% endif %}/index.html">
+				{% if lang == 'ru' %}Назад{% else %}Back{% endif %}
+			</a>
+			{% else %}
+			<span>
+				{{ copyright | safe }}
+			</span>
+			{% endif %}
+		</p>
+
 	</div>
 </footer>

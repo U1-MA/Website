@@ -1,52 +1,8 @@
 <div class="preview" aria-hidden="true">
-	<noscript>
-		<div class="preview__wrapper">
-			<picture>
-				<source srcset="/images/iphone-screen.webp" type="image/webp" />
-				<img class="preview__image" src="/images/iphone-screen.png" width="100%" />
-			</picture>
-		</div>
-	</noscript>
-
-	<script src="/scripts/u1-ma.js"></script>
-	<script>
-		document.addEventListener(
-			'DOMContentLoaded',
-			function () {
-				const preview = document.querySelector('.preview')
-
-				if (
-					CSS.supports('-webkit-mask-image: url(/images/iphone-screen.png)') ||
-					(CSS.supports('mask-image: url(/images/iphone-screen.png)') &&
-					(CSS.supports('-webkit-mask-mode: alpha') || CSS.supports('mask-mode: alpha')) &&
-					(CSS.supports('-webkit-mask-size: 100% 100%') || CSS.supports('mask-size: 100% 100%')) &&
-					(CSS.supports('-webkit-mask-repeat: no-repeat') || CSS.supports('mask-repeat: no-repeat')))
-				) {
-					const u1_ma = document.createElement('u1-ma')
-					u1_ma.className = 'preview__wrapper'
-					preview.appendChild(u1_ma)
-				} else {
-					const simple = document.createElement('div')
-					simple.className = 'preview__wrapper'
-
-					const picture = document.createElement('picture')
-					const source = document.createElement('source')
-					source.srcset = '/images/iphone-screen.webp'
-					source.type = 'image/webp'
-					const image = document.createElement('img')
-
-					image.className = 'preview__image'
-					image.src = '/images/iphone-screen.png'
-					image.width = '100%'
-
-					picture.appendChild(source)
-					picture.appendChild(image)
-					simple.appendChild(picture)
-
-					preview.appendChild(simple)
-				}
-			},
-			false
-		)
-	</script>
+	<div class="preview__wrapper">
+		<picture>
+			<source srcset="/images/iphone-screen.webp" type="image/webp" />
+			<img draggable="false" class="preview__image" src="/images/iphone-screen.png" width="300px" />
+		</picture>
+	</div>
 </div>

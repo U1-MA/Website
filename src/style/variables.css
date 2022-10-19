@@ -8,8 +8,8 @@
 	--primary-text: black;
 	--secondary-text: rgb(83, 83, 83);
 
-	--safe-area-left: max(25px, env(safe-area-inset-left, 25px));
-	--safe-area-right: max(25px, env(safe-area-inset-right, 25px));
+	--safe-area-left: env(safe-area-inset-left, 0);
+	--safe-area-right: env(safe-area-inset-right, 0);
 }
 
 @media only screen and (prefers-color-scheme: dark) {

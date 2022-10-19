@@ -1,5 +1,6 @@
 .user-info {
-	display: contents;
+	padding-left: max(2em, var(--safe-area-left));
+	padding-right: max(2em, var(--safe-area-right));
 }
 
 .user-info__title {
@@ -16,7 +17,14 @@
 }
 
 .user-info__list {
-	display: contents;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+
+	min-height: max(200vh, 1680px);
+	max-width: 680px;
+	margin: 0 auto;
 }
 
 .user-info__item {
@@ -24,8 +32,6 @@
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-
-	min-height: 50vh;
 }
 
 .user-info__item-text {

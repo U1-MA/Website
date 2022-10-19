@@ -5,30 +5,29 @@
 		"title": "Privacy Policy",
 		"appName": "U1-MA",
 		"description": "The U1-MA is build with your privacy in mind...",
-		"author": "Dmitry Koskin",
-		"copyright": "© Designed and Developed by Dmitry Koskin, 2022.",
-		"previewImage": "https://u1-ma.dmkskn.com/preview.jpg",
+		"author": "Dima Koskin",
+		"canonical": "https://u1-ma.com/privacy",
+		"copyright": "© 2022, Dima Koskin",
+		"previewImage": "https://u1-ma.com/preview.jpg",
 		"appCategory": "Health & Fitness",
 
 		"keywords": [
 			"privacy policy",
 			"privacy",
 			"U1-MA",
-			"Dmitry Koskin", 
+			"Dima Koskin",
 			"mindfulnes app for ios",
-			"Health and fitness", 
-			"app for ios", 
+			"Health and fitness",
+			"app for ios",
 			"application",
-			"app", 
+			"app",
 			"meditation",
 			"mindfulness",
-			"appstore", 
-			"app&nbsp;store", 
+			"appstore",
+			"app&nbsp;store",
 			"iphone"
 		]
 	},
-	"copyright": "© The <a href=\"index.html\">U1-MA</a> is Designed and Developed by <a href=\"https://dmkskn.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Dima&nbsp;Koskin</a> in&nbsp;2021.",
-
 	"title": "Privacy Policy",
 	"subtitle": "The <a href=\"index.html\">U1-MA</a> (\"App\") is build with your privacy in mind by <a href=\"https://dmkskn.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Dima Koskin</a> (\"Developer\").",
 
@@ -50,7 +49,7 @@
 
 	"contacts": {
 		"title": "Contacts",
-		"content": "If you have any questions, please contact the developer by e-mail address <a href=\"mailto:u1-ma@dmkskn.com\">u1-ma@dmkskn.com</a>"
+		"content": "If you have any questions, please contact the developer by <a href=\"mailto:u1-ma@dmkskn.com\">e-mail</a> address."
 	},
 
 	"icons": [

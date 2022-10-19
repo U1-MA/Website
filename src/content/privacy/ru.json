@@ -5,28 +5,28 @@
 		"title": "Политика конфиденциальности",
 		"appName": "U1-MA",
 		"description": "U1-MA не собирает ваши данные...",
-		"author": "Дмитрий Коскин",
-		"copyright": "© Дмитрий Коскин, 2022.",
-		"previewImage": "https://u1-ma.dmkskn.com/preview.jpg",
+		"author": "Дима Коскин",
+		"canonical": "https://u1-ma.com/ru/privacy",
+		"copyright": "© 2022, Дима Коскин",
+		"previewImage": "https://u1-ma.com/preview.jpg",
 		"appCategory": "Здоровье и фитнес",
 
 		"keywords": [
 			"приватность",
 			"U1-MA",
-			"Dmitry Koskin", 
+			"Dima Koskin",
+			"Дима Коскин",
 			"приложение для медитаций для ios",
-			"Здоровье и фитнес", 
-			"приложения для ios", 
-			"приложение", 
+			"Здоровье и фитнес",
+			"приложения для ios",
+			"приложение",
 			"медитация",
 			"mindfulness",
-			"appstore", 
-			"app&nbsp;store", 
+			"appstore",
+			"app&nbsp;store",
 			"iphone"
 		]
 	},
-	"copyright": "© <a href=\"https://dmkskn.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Дима&nbsp;Коскин</a>, 2022.<br />Назад к <a href=\"/ru/index.html\">U1-MA</a>.",
-
 	"title": "Политика конфиденциальности",
 
 	"appStore": {
@@ -47,7 +47,7 @@
 
 	"contacts": {
 		"title": "Контакты",
-		"content": "Вы можете связаться с разработчиком по электронной почте <a href=\"mailto:u1-ma@dmkskn.com\">u1-ma@dmkskn.com</a>"
+		"content": "Вы можете связаться с разработчиком по <a href=\"mailto:u1-ma@dmkskn.com\"> почте</a>."
 	},
 
 	"icons": [

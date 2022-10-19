@@ -1,13 +1,11 @@
 <section class="features">
 	<h2 class="features__title">{{ features.title | safe }}</h2>
 
-	<ul class="features__list">
-		{% for feature in features.items %}
-			<li class="features__item">
-				<span class="features__item-text {% if feature.modifiers != undefined %}{% for modifier in feature.modifiers %}features__item-text--{{ modifier }}{% endfor %}{% endif %} scroll-animation">
-					{{ feature.content | safe }}
-				</span>
-			</li>
-		{% endfor %}
-	</ul>
+	{% for feature in features.items %}
+		<p class="features__item">
+			<span class="features__item-text {% if feature.modifiers != undefined %}{% for modifier in feature.modifiers %}features__item-text--{{ modifier }}{% endfor %}{% endif %} scroll-animation">
+				{{ feature.content | safe }}
+			</span>
+		</p>
+	{% endfor %}
 </section>
