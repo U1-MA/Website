@@ -3,7 +3,7 @@
 
 ## what it is 
 
-The [website](https://u1-ma.dmkskn.com) for the **U1-MA** app. The app can be found on [App Store](https://apple.co/3K68kbO).
+The [website](https://u1-ma.com) for the **U1-MA** app. The app can be found on [App Store](https://apple.co/3K68kbO).
 
 ## how it's made
 
