@@ -1,6 +1,5 @@
 {
 	"private": true,
-	"author": "Dmitry Koskin",
 	"engines": {
 		"node": ">=17",
 		"npm": ">=8"
